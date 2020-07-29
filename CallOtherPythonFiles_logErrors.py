@@ -16,7 +16,7 @@ import logging
 
 ##NOTE## Just use the Names of the script not the ".py" extension!
 try:
-    import test1 #first Python file here that ou run
+    import test1 #first Python file here that you wan to run
 except Exception as e:
     f = open('log.txt', 'w')
     f.write('An Error fpr test 1 Was logged - %s' % e)
